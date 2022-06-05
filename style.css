@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans&family=Hind+Siliguri:wght@300&family=Hurricane&family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans&family=Hind+Siliguri:wght@300&family=Hurricane&family=Roboto+Condensed&family=Rubik:wght@300&display=swap');
+
+button {
+    transition: ease 1s all;
+}
+
+h1,
+h2 {
+    cursor: default;
+    font-family: 'Rubik', sans-serif;
+}
+
+h4,
+h6  {
+    font-family: 'Rubik', sans-serif;
+    cursor: default;
+    text-align: center;
+}
+
+h3,
+h5 {
+    font-family: 'Rubik', sans-serif;
+    cursor: default;
+}
+
+header {
+    background: url(./images/header.jpeg);
+    padding: 256px;
+    border-radius: 80px;
+}
+
+.v-general-text {
+    color: whitesmoke;
+    font-family: 'Dancing Script', 'cursive';
+    text-align: center;
+    font-size: 6rem;
+}
+
+.yellow-letter {
+    color: rgb(255, 145, 0);
+}
+
+.up h3 {
+    font-family: 'Dancing Script', 'cursive';
+    font-size:  2rem;
+}
+
+.up {
+    text-align: center;
+}
+
+.cooks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cook1 {
+    width: 30%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 25px 0 rgb(78, 78, 78);
+    border-radius: 25px;  
+    margin-left: 200px;
+    padding-left: 15px;
+}
+
+.cook1 img {
+    width: 90%;
+    padding-left: 5%;
+}
+
+.cook1 h3 {
+    padding-left: 10px;
+}
+
+.cook2 h3 {
+    padding-left: 10px; 
+}
+
+.cook2 {
+    width: 30%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 25px;  
+    box-shadow: 0 0 25px 0 rgb(78, 78, 78);  
+    margin-right: 200px;
+    padding-left: 15px;
+}
+
+.cook2 img {
+    width: 90%;
+    padding-left: 5%;
+}
+
+.menu-a {
+    box-shadow: 0 0 10px 0 rgb(253, 226, 151);  
+    width: 15%;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.menu-b {
+    box-shadow: 0 0 10px 0 rgb(253, 226, 151);  
+    width: 15%;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.menu-c {
+    box-shadow: 0 0 10px 0 rgb(253, 226, 151);  
+    width: 15%;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.menus img {
+    border-radius: 1000px;
+    width: 125px;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.c-1 img ,
+.c-2 img ,
+.c-3 img ,
+.c-4 img {
+    width: 100%;
+}
+
+.c-1 ,
+.c-2 ,
+.c-3 ,
+.c-4 {
+    width: 250px;
+}
+
+.c1-1 ,
+.c1-2 ,
+.c2-1 ,
+.c2-2 ,
+.c3-1 ,
+.c3-2 ,
+.c4-1 ,
+.c4-2 {
+    background-color: rgb(31, 31, 31);
+}
+
+.c1-1 , h2
+.c1-2 , h2
+.c2-1 , h2
+.c2-2 , h2
+.c3-1 , h2
+.c3-2 , h2
+.c4-1 , h2
+.c4-2 , h2{
+    text-align: center;
+    color: white;
+}
+
+/* .c1-1 , h5
+ .c1-2 , h5 */
+/* .c2-1 , h5 */
+.c2-2 , h5
+.c3-1 , h5
+.c3-2 , h5
+.c4-1 , h5
+.c4-2 , h5{
+    text-align: center;
+    padding-bottom: 50px;
+    color: rgb(105, 105, 105);
+}
+
+.c-1 {
+    padding-left: 21.5%;
+}
+
+.c-2 ,
+.c-3 ,
+.c-4 {
+    padding-left: 25px;
+}
+
+.lc {
+    display: flex;
+}
+
+.comment1 {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.comment2 {
+    display: flex;
+}
+
+.connect1 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    width: 10%;
+    padding: 10px;
+    font-size: 1.25rem;
+}
+
+.email {
+    width: 15%;
+    padding: 10px;
+    font-size: 1.25rem;
+}
+
+.send-button {
+    color: rgb(209, 209, 209);
+    background-color: #94663e;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 150px;
+    margin-top: 30px;
+    margin-left: 41%;
+}
+
+.send-button:hover {
+    color: rgb(255, 255, 255);
+    background-color: #ff7300;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 150px;
+    margin-top: 30px;
+    margin-left: 41%;
+    box-shadow: 0 0 100px #ff7300;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media (max-width: 1800px) {
+    .c-1 {
+        padding-left: 18.7%;
+    }
+}
+
+@media (min-width: 2100px) {
+   .c-1 {
+       padding-left: 24.3%;
+   } 
+
+   .comment1 ,
+   .comment2 {
+       padding-left: 100px;
+   }
+
+   .send-button {
+    margin-left: 42.5%;
+}
+}
+
+@media (min-width: 2200px) {
+    .c-1 {
+        padding-left: 27.2%;
+    }
+
+    .comment1 ,
+    .comment2 {
+        padding-left: 250px;
+    }
+
+    .send-button {
+        margin-left: 43.5%;
+    }
+
+}
+
+@media (min-width: 2450px) {
+    .c-1 {
+        padding-left: 28.7%;
+    }
+    
+    .send-button {
+        margin-left: 43.5%;
+        transform: scale(1.3);
+    }
+
+    .send-button:hover{
+        transform: scale(1.4);  
+    }
+}
+
+@media (max-width: 375px){
+    .v-general-text {
+        font-size: 2rem;
+    }
+
+    header {
+        width: 100%;
+        height: 300px;
+        padding: 0;
+    }
+
+    .v-general-text {
+        padding-top: 140px;
+    }
+
+    .cooks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cook1 {
+        width: 95%;
+        padding: 0px;
+        padding-top: 10px;
+        margin: 10px;
+        padding-bottom: 10px;
+    }
+
+    .cook2 {
+        width: 95%;
+        padding: 0px;
+        padding-top: 10px;
+        margin: 10px;
+        padding-bottom: 10px;
+    }
+
+    .menus {
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .menu-a {
+        width: 86%;
+
+    }
+
+    .menu-b {
+        width: 86%;
+    }
+
+    .menu-c {
+        width: 86%;
+    }
+
+    .lc{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .c-1 {
+        padding-left: 15%;
+    }
+
+    .c-2 {
+        padding-left: 15%;
+    }
+
+    .c-3 {
+        padding-left: 15%;
+    }
+
+    .c-4 {
+        padding-left: 15%;
+    }
+
+    .ttau img {
+        display: none;
+    }
+
+    .comment1 {
+        width:90%; 
+        height:100px; 
+        position:relative; 
+        top:-50px; 
+        left:0px; 
+    }
+
+    .comment2 {
+        display: none;
+    }
+
+    .connect1 {
+        display: none;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    .send-button {
+        padding: 20px;
+    }
+
+    .send-button:hover {
+        padding: 20px;
+        transform: none;
+    }
+}
